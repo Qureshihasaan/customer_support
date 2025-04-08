@@ -1,0 +1,21 @@
+[project]
+name = "customer-support"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Qureshihasaan", email = "hasaanqureshi150@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chainlit>=2.4.400",
+    "openai-agents>=0.0.9",
+    "python-dotenv>=1.1.0",
+]
+
+[project.scripts]
+customer-support = "customer_support:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
