@@ -23,7 +23,7 @@ A sophisticated customer support chatbot system built with Chainlit and OpenAI A
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Qureshihasaan/customer_support_agent
 cd customer-support
 ```
 
